@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Primary"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="Giới thiệu về app 😉"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="209dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+
+            app:srcCompat="@drawable/logogioithieu" />
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/countdown"
+                    android:layout_width="307dp"
+                    android:layout_height="368dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Đố vui là một đề tài game để cho mọi người có thể thử sức ,đặc biệt đố vui mang tính giải  trí cao,ngoài ra còn có thể mở mang tầm hiểu biết và mọi người có thể dùng những câu đố này để có thể đố vui cùng người thân , bạn bè...😍😚 "
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
